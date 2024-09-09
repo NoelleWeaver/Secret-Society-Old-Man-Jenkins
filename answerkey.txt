@@ -10,15 +10,15 @@ Answer: needle
 
 Answer: egg
 
-#4 I am a function that can help you find the position of an element in an array. What am I? 
+#7 I am a function that can help you find the position of an element in an array. What am I? 
 
 Answer: indexOf
 
-#5 I am a function that can help you determine the type of a value or variable. What am I?
+#8 I am a function that can help you determine the type of a value or variable. What am I?
 
 Answer: typeOf
 
-#6 I am a function that allows you to create a new array with the results of calling a provided function on every element in the
+#9 I am a function that allows you to create a new array with the results of calling a provided function on every element in the
  original array. What am I?
 
 Answer: map

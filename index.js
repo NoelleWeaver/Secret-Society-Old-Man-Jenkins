@@ -50,22 +50,31 @@ const server = http.createServer((req,res) => {
         })
     }
     else if(req.url === '/indexOf'){
-        fs.readFile('./puzzle5.html', (error,data) => {
+        fs.readFile('./puzzle7.html', (error,data) => {
             res.end(data)
         })
     }
-    else if(req.url === '/puzzle5hint'){
-        fs.readFile('./puzzle5hint.html', (error,data) => {
+    else if(req.url === '/puzzle7hint'){
+        fs.readFile('./puzzle7hint.html', (error,data) => {
             res.end(data)
         })
     }
     else if(req.url === '/typeOf'){
-        fs.readFile('./puzzle6.html', (error,data) => {
+        fs.readFile('./puzzle8.html', (error,data) => {
             res.end(data)
         })
     }
-    else if(req.url === '/puzzle6hint'){
-        fs.readFile('./puzzle6hint.html', (error,data) => {
+    else if(req.url === '/puzzle8hint'){
+        fs.readFile('./puzzle8hint.html', (error,data) => {
+            res.end(data)
+        })
+    }
+    else if(req.url === '/puzzle8hint'){
+        fs.readFile('./puzzle8hint.html', (error,data) => {
+            res.end(data)
+        })
+    }else if(req.url === '/puzzle8hint'){
+        fs.readFile('./puzzle8hint.html', (error,data) => {
             res.end(data)
         })
     }
