@@ -1,0 +1,24 @@
+#1 What has keys but can't open locks, space but no room, and you can enter but not go inside?
+
+Answer: keyboard
+
+#2 What has one eye but cannot see?
+
+Answer: needle
+
+#3 What has to be broken before you can use it?
+
+Answer: egg
+
+#4 I am a function that can help you find the position of an element in an array. What am I? 
+
+Answer: indexOf
+
+#5 I am a function that can help you determine the type of a value or variable. What am I?
+
+Answer: typeOf
+
+#6 I am a function that allows you to create a new array with the results of calling a provided function on every element in the
+ original array. What am I?
+
+Answer: map

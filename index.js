@@ -19,7 +19,7 @@ const server = http.createServer((req,res) => {
             res.end(data)
         })
     }
-    else if(req.url === '/puzzle2'){
+    else if(req.url === '/keyboard'){
         fs.readFile('./puzzle2.html', (error,data) => {
             res.end(data)
         })
@@ -29,7 +29,7 @@ const server = http.createServer((req,res) => {
             res.end(data)
         })
     }
-    else if(req.url === '/puzzle3'){
+    else if(req.url === '/needle'){
         fs.readFile('./puzzle3.html', (error,data) => {
             res.end(data)
         })
@@ -39,7 +39,7 @@ const server = http.createServer((req,res) => {
             res.end(data)
         })
     }
-    else if(req.url === '/puzzle4'){
+    else if(req.url === '/egg'){
         fs.readFile('./puzzle4.html', (error,data) => {
             res.end(data)
         })
@@ -49,7 +49,7 @@ const server = http.createServer((req,res) => {
             res.end(data)
         })
     }
-    else if(req.url === '/puzzle5'){
+    else if(req.url === '/indexOf'){
         fs.readFile('./puzzle5.html', (error,data) => {
             res.end(data)
         })
@@ -59,13 +59,18 @@ const server = http.createServer((req,res) => {
             res.end(data)
         })
     }
-    else if(req.url === '/puzzle6'){
+    else if(req.url === '/typeOf'){
         fs.readFile('./puzzle6.html', (error,data) => {
             res.end(data)
         })
     }
     else if(req.url === '/puzzle6hint'){
         fs.readFile('./puzzle6hint.html', (error,data) => {
+            res.end(data)
+        })
+    }
+    else if(req.url === '/map'){
+        fs.readFile('./youwon.html', (error,data) => {
             res.end(data)
         })
     }
